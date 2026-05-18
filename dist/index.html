@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- Mobile Optimization -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+
+    <!-- Theme -->
+    <meta name="theme-color" content="#3a2618" />
+
+    <!-- SEO -->
+    <title>Creamery Cakes & Coffee</title>
+
+    <meta
+      name="description"
+      content="Premium artisan cakes, pastries and coffee in Addis Ababa."
+    />
+
+    <meta
+      name="keywords"
+      content="Creamery, cakes, coffee, pastries, Addis Ababa, cafe, torta"
+    />
+
+    <meta name="author" content="Creamery Cakes & Coffee" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Creamery Cakes & Coffee" />
+
+    <meta
+      property="og:description"
+      content="Premium artisan cakes, pastries and coffee."
+    />
+
+    <meta property="og:type" content="website" />
+
+    <meta property="og:image" content="/logo.png" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/logo.png" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Italianno&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Smooth Scroll -->
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        background: #f7f1e6;
+        overflow-x: hidden;
+        font-family: "Inter", sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+
+      .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+
+      /* Loading Screen */
+
+      #loader {
+        position: fixed;
+        inset: 0;
+        background: #f7f1e6;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+        transition: opacity 0.4s ease;
+      }
+
+      #loader img {
+        width: 90px;
+        height: 90px;
+        border-radius: 999px;
+        animation: float 3s ease-in-out infinite;
+      }
+
+      @keyframes float {
+        0%,
+        100% {
+          transform: translateY(0px);
+        }
+
+        50% {
+          transform: translateY(-8px);
+        }
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index-O4tlc8iz.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CRMDTKQS.css">
+  </head>
+
+  <body>
+    <!-- App Loader -->
+
+    <div id="loader">
+      <img src="/assets/logo-DgI954lG.jpg" alt="Creamery Logo" />
+    </div>
+
+    <!-- React Root -->
+
+    <div id="root"></div>
+
+    <!-- Remove Loader After App Loads -->
+
+    <script>
+      window.addEventListener("load", () => {
+        const loader = document.getElementById("loader");
+
+        loader.style.opacity = "0";
+
+        setTimeout(() => {
+          loader.style.display = "none";
+        }, 400);
+      });
+    </script>
+
+    <!-- React Entry -->
+
+  </body>
+</html>
