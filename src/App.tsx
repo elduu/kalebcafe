@@ -37,6 +37,7 @@ import butterCookies from "./assets/menu-buttercooki.jpg";
 import burger from "./assets/menu-burger.jpg";
 import bananaTart from "./assets/menu-banana-tart.jpg";
 import bananaBox from "./assets/menu-babanaboxegna.jpg";
+import logo from "./assets/logo.jpg";
 
 import profileImg from "./assets/IMG_20250906_164255_716.jpg";
 
@@ -274,11 +275,11 @@ export default function App() {
       <header className="sticky top-0 z-50 backdrop-blur-xl bg-white/70 dark:bg-black/30 border-b border-[#e5d8c5]">
         <div className="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <img
-              src="src/assets/logo.jpg"
-              alt="Creamery"
-              className="w-10 h-10 rounded-full object-cover"
-            />
+           <img
+  src={logo}
+  alt="logo"
+  className="w-20 h-20 rounded-full mx-auto"
+/>
 
             <div>
               <h1 className="font-semibold text-sm tracking-wide">
@@ -303,10 +304,10 @@ export default function App() {
       <section className="relative px-5 pt-20 pb-16 overflow-hidden">
         <div className="max-w-5xl mx-auto text-center">
           <img
-            src="src/assets/logo.jpg"
-            alt="Creamery"
-            className="w-28 h-28 mx-auto rounded-full shadow-2xl object-cover"
-          />
+  src={logo}
+  alt="logo"
+  className="w-20 h-20 rounded-full mx-auto"
+/>
 
           <p className="mt-6 text-sm uppercase tracking-[0.3em] text-[#b07a42]">
             Artisan Cakes & Coffee
@@ -466,10 +467,10 @@ export default function App() {
 
       <footer className="pb-32 pt-14 text-center px-5">
         <img
-          src="src/assets/logo.jpg"
-          alt="logo"
-          className="w-20 h-20 rounded-full mx-auto"
-        />
+  src={logo}
+  alt="logo"
+  className="w-20 h-20 rounded-full mx-auto"
+/>
 
         <h3 className="mt-5 text-3xl font-serif">
           Creamery Cakes & Coffee
@@ -478,7 +479,9 @@ export default function App() {
         <p className="mt-2 opacity-60 text-sm">
           Handmade pastries, artisan cakes and coffee.
         </p>
-
+ <p className="mt-2 opacity-60 text-sm">
+      powered by <a href="https://inviteyours.com" className="underline">InviteYours</a>
+        </p>
         
       </footer>
 
