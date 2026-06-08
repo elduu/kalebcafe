@@ -25,6 +25,11 @@ import orangeCake from "./assets/menu-orangecake.jpg";
 
 import focaccia from "./assets/menu-Foccacia.jpg";
 import creamery from "./assets/menu-creamery.jpg";
+import halfkg from "./assets/halfkg.jpg";
+import bigbox from "./assets/bigtakeaway.jpg";
+import smallbox from "./assets/smalltackaway.jpg";
+import sfull from "./assets/specialfull.jpg";
+import nfull from "./assets/normalfull.jpg";
 
 import coffeeBox from "./assets/menu-cofeeboxegna.jpg";
 import coffee from "./assets/menu-coffee.jpg";
@@ -93,14 +98,16 @@ const categories: Category[] = [
         image: paratha,
       },
       {
-        en: "Normal Full",
+        en: "Normal Ful",
+        am: "ፉል",
         price: 150,
-        image: burger,
+        image: nfull,
       },
       {
         en: "Special Full",
+        am: "ስፔሻል ፉል",
         price: 200,
-        image: burger,
+        image: sfull,
       },
     ],
   },
@@ -222,12 +229,12 @@ const categories: Category[] = [
       {
         en: "Mini Torta / Erub Kilo",
         price: 400,
-        image: torta,
+        image: profileImg,
       },
       {
         en: "Half Kilo Torta",
         price: 800,
-        image: torta,
+        image: halfkg,
       },
       {
         en: "Full 1kg Torta",
@@ -247,12 +254,12 @@ const categories: Category[] = [
       {
         en: "Small Takeaway Box",
         price: 10,
-        image: coffee,
+        image: smallbox,
       },
       {
         en: "Big Takeaway Box",
         price: 15,
-        image: coffee,
+        image: bigbox,
       },
     ],
   },
