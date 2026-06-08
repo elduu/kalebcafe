@@ -82,7 +82,7 @@ const categories: Category[] = [
       {
         en: "Creamery Sandwich",
         am: "ክሬመሪ ሳንዱች",
-        price: 250,
+        price: 25,
         tag: "Signature",
         image: creamery,
       },
@@ -115,6 +115,18 @@ const categories: Category[] = [
         en: "Orange Cake",
         am: "ተቆራጭ",
         price: 70,
+        image: orangeCake,
+      },
+      {
+        en: "non-fasting tekotach",
+        am: " ተቆራጭ",
+        price: 80,
+        image: orangeCake,
+      },
+       {
+        en: "Fasting Orange Cake",
+        am: "የፆም ተቆራጭ",
+        price: 40,
         image: orangeCake,
       },
       {
@@ -286,7 +298,7 @@ export default function App() {
                 Creamery Cakes & Coffee
               </h1>
 
-              <p className="text-xs opacity-60">Established 2017</p>
+              <p className="text-xs opacity-60">Established 2015 E.C</p>
             </div>
           </div>
 
@@ -309,9 +321,7 @@ export default function App() {
   className="w-20 h-20 rounded-full mx-auto"
 />
 
-          <p className="mt-6 text-sm uppercase tracking-[0.3em] text-[#b07a42]">
-            Artisan Cakes & Coffee
-          </p>
+          
 
           <h2 className="mt-4 text-5xl font-serif leading-tight">
             Slow Brews &
@@ -332,13 +342,7 @@ export default function App() {
               View Menu
             </button>
 
-            <a
-              href={WHATSAPP}
-              target="_blank"
-              className="border border-[#3a2618] px-6 py-3 rounded-full text-sm"
-            >
-              WhatsApp
-            </a>
+           
           </div>
         </div>
       </section>
@@ -487,13 +491,7 @@ export default function App() {
 
       {/* Floating WhatsApp */}
 
-      <a
-        href={WHATSAPP}
-        target="_blank"
-        className="fixed bottom-6 right-5 z-50 bg-green-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl"
-      >
-        💬
-      </a>
+    
     </div>
   );
 }
