@@ -12,39 +12,39 @@ import {
   ChevronDown,
 } from "lucide-react";
 
-import torta from "./assets/torta.jpg";
-import vanillaPastry from "./assets/menu-vanialapastry.jpg";
+import torta from "./assets/torta.webp";
+import vanillaPastry from "./assets/menu-vanialapastry.webp";
 
-import scrambledEgg from "./assets/menu-scrambledegg.jpg";
-import strawberryTart from "./assets/menu-strawberry-tart.jpg";
+import scrambledEgg from "./assets/menu-scrambledegg.webp";
+import strawberryTart from "./assets/menu-strawberry-tart.webp";
 
-import pastaTomato from "./assets/menu-pastat.jpg";
-import paratha from "./assets/menu-paratha.jpg";
+import pastaTomato from "./assets/menu-pastat.webp";
+import paratha from "./assets/menu-paratha.webp";
 
-import orangeCake from "./assets/menu-orangecake.jpg";
+import orangeCake from "./assets/menu-orangecake.webp";
 
-import focaccia from "./assets/menu-Foccacia.jpg";
-import creamery from "./assets/menu-creamery.jpg";
-import halfkg from "./assets/halfkg.jpg";
-import bigbox from "./assets/bigtakeaway.jpg";
-import smallbox from "./assets/smalltackaway.jpg";
-import sfull from "./assets/specialfull.jpg";
-import nfull from "./assets/normalfull.jpg";
+import focaccia from "./assets/menu-Foccacia.webp";
+import creamery from "./assets/menu-creamery.webp";
+import halfkg from "./assets/halfkg.webp";
+import bigbox from "./assets/bigtakeaway.webp";
+import smallbox from "./assets/smalltackaway.webp";
+import sfull from "./assets/specialfull.webp";
+import nfull from "./assets/normalfull.webp";
 
-import coffeeBox from "./assets/menu-cofeeboxegna.jpg";
-import coffee from "./assets/menu-coffee.jpg";
+import coffeeBox from "./assets/menu-cofeeboxegna.webp";
+import coffee from "./assets/menu-coffee.webp";
 
-import chouxBox from "./assets/menu-choux boxsegna.jpg";
-import chocolatePastry from "./assets/menu-chocolate-pastry.jpg";
-import chocolateChips from "./assets/menu-chocolate-chips.jpg";
-import chocolateTart from "./assets/menu-chcoTART.jpg";
-import butterCookies from "./assets/menu-buttercooki.jpg";
-import burger from "./assets/menu-burger.jpg";
-import bananaTart from "./assets/menu-banana-tart.jpg";
-import bananaBox from "./assets/menu-babanaboxegna.jpg";
-import logo from "./assets/logo.jpg";
+import chouxBox from "./assets/menu-choux boxsegna.webp";
+import chocolatePastry from "./assets/menu-chocolate-pastry.webp";
+import chocolateChips from "./assets/menu-chocolate-chips.webp";
+import chocolateTart from "./assets/menu-chcoTART.webp";
+import butterCookies from "./assets/menu-buttercooki.webp";
+import burger from "./assets/menu-burger.webp";
+import bananaTart from "./assets/menu-banana-tart.webp";
+import bananaBox from "./assets/menu-babanaboxegna.webp";
+import logo from "./assets/logo.webp";
 
-import profileImg from "./assets/IMG_20250906_164255_716.jpg";
+import profileImg from "./assets/IMG_20250906_164255_716.webp";
 
 type MenuItem = {
   en: string;
